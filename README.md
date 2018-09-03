@@ -1,5 +1,5 @@
 # XP-TWAS 
-### Last updated: September 3, 2018, by Catherine Li
+#### Last updated: September 3, 2018, by Catherine Li
 
 ## Introduction
 
