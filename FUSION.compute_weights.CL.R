@@ -1,6 +1,7 @@
 # --- FUSION.compute_weights.CL.R
 # Builds on the original FUSION weight-computing script, FUSION.compute_weights.R (Gusev et al. 2016).
-# In addition to the capabilities of the original, this script can compute weights using XPEN and XPEN2 given one or more reference weight files.
+# In addition to the capabilities of the original,
+# this script can compute weights using XPEN and XPEN2 given one or more reference weight files.
 # ---
 
 # --- Change log

@@ -1,6 +1,7 @@
 # --- FUSION.score.CL.R
 # Builds on the original FUSION individual-levle scoring script, make_score.R (Gusev et al. 2016).
-# In addition to the capabilities of the original script, this script can perform individual-level prediction in a PLINK file using XPEN and XPEN2.
+# In addition to the capabilities of the original script,
+# this script can perform individual-level prediction in a PLINK file using XPEN and XPEN2.
 
 # Note that multiple score files are generated when XPEN2 is used for scoring: these represent
 # the predictions from each set of reference weights individually,
