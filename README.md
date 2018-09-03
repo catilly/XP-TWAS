@@ -9,8 +9,8 @@ The resulting gene expression scores can be used to test for gene-phenotype asso
 ## Description of Contents
 
 This directory contains the following sub-directories and files:
-- **FUSION.compute_weights.CL.R**: Extension of the original FUSION.compute_weights.R script by Gusev et al. 2016 that enables the use of XPEN and XPEN2 to compute weights modeling the relationship between genotype and gene expression.
-- **FUSION.score.CL.R**: Extension of the original make_score.R script by Gusev et al. 2016 that can handle XPEN and XPEN2 input weights to produce individual-level gene expression scores given new genotype data.
+- **FUSION.compute_weights.CL.R**: Extension of the original FUSION.compute_weights.R script by Gusev et al. 2016. It enables the use of XPEN and XPEN2 to compute weights modeling the relationship between genotype and gene expression.
+- **FUSION.score.CL.R**: Extension of the original make_score.R script by Gusev et al. 2016. It can handle XPEN and XPEN2 input weights to produce individual-level gene expression scores given new genotype data.
 - **examples/**: Some examples to show how these R utilities are used in practice.
 	- **compute_EUR_GEUVADIS_ref_wgt.sh**: An example bash script that computes weights in European Geuvadis data.
 	- **compute_AFR_GEUVADIS_XP_wgt.sh**: An example bash script that computes weights in African Geuvadis data. It is designed for use AFTER weights in the Geuvadis Europeans have already been computed; it uses the European weights as references in implementing XPEN and XPEN2.
