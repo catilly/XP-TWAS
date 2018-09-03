@@ -1,5 +1,4 @@
-# XP-TWAS 
-#### Last updated: September 3, 2018, by Catherine Li
+# XP-TWAS
 
 ## Introduction
 
@@ -16,4 +15,4 @@ This directory contains the following sub-directories and files:
 	- **compute_EUR_GEUVADIS_ref_wgt.sh**: An example bash script that computes weights in European Geuvadis data.
 	- **compute_AFR_GEUVADIS_XP_wgt.sh**: An example bash script that computes weights in African Geuvadis data. It is designed for use AFTER weights in the Geuvadis Europeans have already been computed; it uses the European weights as references in implementing XPEN and XPEN2.
 	- **generate_phenos.R**: A helper R script that is called in the two compute_wgt.sh scripts above in order to generate phenotype files for each population.
-	- *score_all.sh*: An example bash script that uses weight files to compute gene expression scores in new genotype data.
+	- **score_all.sh**: An example bash script that uses weight files to compute gene expression scores in new genotype data.
